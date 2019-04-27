@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pitch_title: MyString
+  pitch_topic: MyString
+  pitch_description: MyString
+  pitch_problem: MyString
+  pitch_solution: MyString
+
+two:
+  pitch_title: MyString
+  pitch_topic: MyString
+  pitch_description: MyString
+  pitch_problem: MyString
+  pitch_solution: MyString
