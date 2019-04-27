@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
     t.string "pitch_description"
     t.string "pitch_problem"
     t.string "pitch_solution"
+    t.boolean "open"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -7,6 +7,7 @@ class CreateTeams < ActiveRecord::Migration[5.2]
       t.string :pitch_description
       t.string :pitch_problem
       t.string :pitch_solution
+      t.boolean :open
 
       t.timestamps
     end
