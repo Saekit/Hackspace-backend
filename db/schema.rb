@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
     t.string "full_name"
     t.string "role_title"
     t.string "photo_url"
+    t.string "email"
     t.integer "team_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

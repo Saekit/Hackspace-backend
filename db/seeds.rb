@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all
 
-User.create(username: "admin", full_name: "Administrator", role_title: "Admin", photo_url: "none", team_id: nil)
+User.create(username: "admin", full_name: "Administrator", role_title: "Admin", photo_url: "none", team_id: nil, email: "admin@admin.com")

@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :full_name
       t.string :role_title
       t.string :photo_url
+      t.string :email
       t.integer :team_id, default: nil
 
       t.timestamps
