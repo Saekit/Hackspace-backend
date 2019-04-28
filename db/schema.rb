@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_27_192115) do
+ActiveRecord::Schema.define(version: 2019_04_28_053901) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
   create_table "ideas", force: :cascade do |t|
     t.string "title"
     t.string "topic"
+    t.string "description"
     t.string "problem"
     t.string "solution"
     t.string "audience"
@@ -29,7 +30,6 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
     t.string "team_name"
     t.string "pitch_title"
     t.string "pitch_topic"
-    t.string "pitch_description"
     t.string "pitch_problem"
     t.string "pitch_solution"
     t.boolean "open"
