@@ -4,7 +4,6 @@ class CreateTeams < ActiveRecord::Migration[5.2]
       t.string :team_name
       t.string :pitch_title
       t.string :pitch_topic
-      t.string :pitch_description
       t.string :pitch_problem
       t.string :pitch_solution
       t.boolean :open

@@ -23,7 +23,7 @@ class Api::V1::TeamsController < ApplicationController
   private
 
   def team_params
-    params.require(:team).permit(:team_name, :pitch_title, :pitch_topic, :pitch_description, :pitch_problem, :pitch_solution)
+    params.require(:team).permit(:team_name, :pitch_title, :pitch_topic, :pitch_problem, :pitch_solution)
   end
 
   def find_team

@@ -18,4 +18,4 @@ Idea.create(title:"Tech Jobs", topic:"Jobs", problem:"We so poor", solution:"Chr
 Idea.create(title:"Tech Transportation", topic:"Transit", problem:"We so slow", solution:"Web app ... we so fast", audience:"people on earth")
 
 
-Vote.create(user_id:User.last, idea_id:1)
+# Vote.create(user_id: User.last, idea_id:1)

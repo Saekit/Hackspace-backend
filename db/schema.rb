@@ -29,7 +29,6 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
     t.string "team_name"
     t.string "pitch_title"
     t.string "pitch_topic"
-    t.string "pitch_description"
     t.string "pitch_problem"
     t.string "pitch_solution"
     t.boolean "open"
