@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
     t.string "problem"
     t.string "solution"
     t.string "audience"
+    t.string "full_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

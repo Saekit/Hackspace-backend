@@ -6,6 +6,7 @@ class CreateIdeas < ActiveRecord::Migration[5.2]
       t.string :problem
       t.string :solution
       t.string :audience
+      t.string :full_name
 
       t.timestamps
     end
