@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2019_04_27_192115) do
   create_table "ideas", force: :cascade do |t|
     t.string "title"
     t.string "topic"
-    t.string "description"
     t.string "problem"
     t.string "solution"
     t.string "audience"
