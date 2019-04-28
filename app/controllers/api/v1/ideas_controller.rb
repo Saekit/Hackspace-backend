@@ -23,7 +23,7 @@ class Api::V1::IdeasController < ApplicationController
   private
 
   def idea_params
-    params.require(:idea).permit(:title, :topic, :problem, :solution, :audience)
+    params.require(:idea).permit(:title, :topic, :problem, :solution, :audience, :full_name)
   end
 
   def find_idea

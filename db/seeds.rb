@@ -12,10 +12,8 @@ Vote.destroy_all
 User.create(username: "admin", full_name: "Administrator", role_title: "Admin", photo_url: "none", team_id: nil, email: "admin@admin.com")
 User.create(username: "Guest", full_name: "Hack", role_title: "participant", photo_url: "none", team_id: nil, email: "guest@guest.com")
 
-Idea.create(title:"Tech Recycle", topic:"Environment", problem:"We so dirty", solution:"Web app ... we so clean", audience:"people on earth")
-Idea.create(title:"Tech Security", topic:"Data Security", problem:"We so dangerous", solution:"Mobile app ... we so safe ", audience:"people on earth")
-Idea.create(title:"Tech Jobs", topic:"Jobs", problem:"We so poor", solution:"Chrome extension ... we so rich", audience:"people on earth")
-Idea.create(title:"Tech Transportation", topic:"Transit", problem:"We so slow", solution:"Web app ... we so fast", audience:"people on earth")
+Idea.create(title:"Tech Recycle", topic:"Environment", problem:"We so dirty", solution:"Web app ... we so clean", audience:"people on earth", full_name:"John Doe")
+Idea.create(title:"Tech Security", topic:"Data Security", problem:"We so dangerous", solution:"Mobile app ... we so safe ", audience:"people on earth", full_name: "Jewels Can")
+Idea.create(title:"Tech Jobs", topic:"Jobs", problem:"We so poor", solution:"Chrome extension ... we so rich", audience:"people on earth", full_name: "Mike Bet")
+Idea.create(title:"Tech Transportation", topic:"Transit", problem:"We so slow", solution:"Web app ... we so fast", audience:"people on earth", full_name:"Mia My")
 
-
-Vote.create(user_id:User.all.last, idea_id:Idea.all.first)
